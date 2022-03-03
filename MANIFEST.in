@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ehpea *.css
+recursive-include ehpea *.csv
+recursive-include ehpea *.html
+recursive-include ehpea *.ico
+recursive-include ehpea *.js
+recursive-include ehpea *.json
+recursive-include ehpea *.md
+recursive-include ehpea *.png
+recursive-include ehpea *.py
+recursive-include ehpea *.svg
+recursive-include ehpea *.txt
+recursive-exclude ehpea *.pyc
