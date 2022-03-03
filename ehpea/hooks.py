@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
 app_name = "ehpea"
-app_title = "Ehpea"
+app_title = "ehpea"
 app_publisher = "eldx"
 app_description = "ehpea app"
 app_icon = "octicon octicon-file-directory"

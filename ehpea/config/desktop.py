@@ -3,10 +3,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Ehpea",
+			"module_name": "ehpea",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("Ehpea")
+			"label": _("ehpea")
 		}
 	]
