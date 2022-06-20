@@ -1,0 +1,583 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Gender Training checklist-{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-06-15 15:46:05.689611",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic",
+  "farm",
+  "column_break_12",
+  "cluster",
+  "section_break_3",
+  "gender_focal_person_name",
+  "total_emp",
+  "total_employee_m",
+  "column_break_7",
+  "position",
+  "male1",
+  "male_manager",
+  "column_break_9",
+  "phone",
+  "female1",
+  "female_manager",
+  "section_break_11",
+  "select_20",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_23",
+  "remark_1",
+  "section_break_25",
+  "select_21",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_27",
+  "remark_2",
+  "section_break_29",
+  "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_33",
+  "remark_3",
+  "section_break_35",
+  "select_36",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_39",
+  "remark_4",
+  "section_break_41",
+  "select_42",
+  "action_needed_5",
+  "responsible_person_5",
+  "column_break_45",
+  "remark_5",
+  "section_break_47",
+  "select_48",
+  "action_needed_6",
+  "responsible_person_6",
+  "column_break_51",
+  "remark_6",
+  "section_break_53",
+  "select_54",
+  "action_needed_7",
+  "responsible_person_7",
+  "column_break_57",
+  "remark_7",
+  "section_break_59",
+  "select_60",
+  "action_needed_8",
+  "responsible_person_8",
+  "column_break_63",
+  "remark_8",
+  "gender_equality_policy_section",
+  "select_66",
+  "action_needed_9",
+  "responsible_person_9",
+  "column_break_69",
+  "remark_9",
+  "section_break_71",
+  "organization",
+  "action_needed_10",
+  "responsible_person_10",
+  "column_break_75",
+  "remark_10",
+  "section_break_77",
+  "select_78",
+  "action_needed_11",
+  "responsible_person_11",
+  "column_break_81",
+  "remark_11",
+  "section_break_83",
+  "select_84",
+  "action_needed_12",
+  "responsible_person_12",
+  "column_break_87",
+  "remark_12",
+  "section_break_89",
+  "conducted_by",
+  "column_break_99",
+  "signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic",
+   "fieldtype": "Section Break",
+   "label": "Basic Farm Information"
+  },
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Farm Name",
+   "options": "Farm Profile",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cluster",
+   "fieldtype": "Data",
+   "label": "Cluster"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gender_focal_person_name",
+   "fieldtype": "Link",
+   "label": "Gender Focal Person name",
+   "options": "User"
+  },
+  {
+   "fieldname": "total_emp",
+   "fieldtype": "Int",
+   "label": "Total Employees"
+  },
+  {
+   "fieldname": "total_employee_m",
+   "fieldtype": "Int",
+   "label": "Total Employee at Management level"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "male1",
+   "fieldtype": "Int",
+   "label": "Male"
+  },
+  {
+   "fieldname": "male_manager",
+   "fieldtype": "Int",
+   "label": "Male Manager"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Int",
+   "label": "phone"
+  },
+  {
+   "fieldname": "female1",
+   "fieldtype": "Int",
+   "label": "Female"
+  },
+  {
+   "fieldname": "female_manager",
+   "fieldtype": "Int",
+   "label": "Female Manager"
+  },
+  {
+   "description": "A. Induction training is provided for all staffs",
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break",
+   "label": "Provided training Contents  "
+  },
+  {
+   "fieldname": "select_20",
+   "fieldtype": "Select",
+   "label": "It explains Company\u2019s procedures and the commitment to investigate and resolve a complaint of GBV and ensure equality",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_21",
+   "fieldtype": "Select",
+   "label": "It explains the responsibilities of Gender committee",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break",
+   "label": "B. Staff are able to explain:"
+  },
+  {
+   "fieldname": "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+   "fieldtype": "Select",
+   "label": "Farm Gender and Anti- harassment Rules",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_36",
+   "fieldtype": "Select",
+   "label": "What will happen if they break the rules",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_42",
+   "fieldtype": "Select",
+   "label": "What to do and were to report if they face sexual violence or Discrimination against their sex at work",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_5",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_5",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_5",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_47",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_48",
+   "fieldtype": "Select",
+   "label": "What to do if there is violence or harassment happened whilst at work",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_6",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_6",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_6",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_53",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_54",
+   "fieldtype": "Select",
+   "label": "Where to go If they need gender related support/information",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_7",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_7",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_57",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_7",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_59",
+   "fieldtype": "Section Break",
+   "label": "C. All farm staff are informed about who are the key people relating to gender issues:"
+  },
+  {
+   "fieldname": "select_60",
+   "fieldtype": "Select",
+   "label": "Farm Gender focal person",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_8",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_8",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_63",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_8",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "gender_equality_policy_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_66",
+   "fieldtype": "Select",
+   "label": "Farm Gender Committee members",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_9",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_9",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_69",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_9",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_71",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Select",
+   "label": "HR manager",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_10",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_10",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_75",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_10",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_77",
+   "fieldtype": "Section Break",
+   "label": "D."
+  },
+  {
+   "fieldname": "select_78",
+   "fieldtype": "Select",
+   "label": "The farm has developed and is implementing a farm training plan",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_11",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_11",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_81",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_11",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_83",
+   "fieldtype": "Section Break",
+   "label": "E."
+  },
+  {
+   "fieldname": "select_84",
+   "fieldtype": "Select",
+   "label": "Gender awareness training is revised, minimum twice in a year",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_12",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_12",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_87",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_12",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_89",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "conducted_by",
+   "fieldtype": "Data",
+   "label": "Conducted By"
+  },
+  {
+   "fieldname": "column_break_99",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Data",
+   "label": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 11:07:39.877198",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Gender Training checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

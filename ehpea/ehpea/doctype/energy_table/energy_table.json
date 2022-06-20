@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-12 13:25:39.093572",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sn",
+  "date",
+  "unit_of_measurekwa",
+  "amount_used_per_day",
+  "amount_used_per_month",
+  "total_amount",
+  "responsible_person",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "sn",
+   "fieldtype": "Data",
+   "label": "SN"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "unit_of_measurekwa",
+   "fieldtype": "Int",
+   "label": "Unit of measure/Kwa"
+  },
+  {
+   "fieldname": "amount_used_per_day",
+   "fieldtype": "Int",
+   "label": "Amount used per day"
+  },
+  {
+   "fieldname": "amount_used_per_month",
+   "fieldtype": "Int",
+   "label": "Amount used per month"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Int",
+   "label": "Total Amount "
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-20 11:01:14.091772",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Energy table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

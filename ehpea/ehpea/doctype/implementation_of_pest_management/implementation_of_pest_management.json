@@ -1,0 +1,1157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Implementation of pest management-{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-04-12 14:02:20.398983",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm",
+  "section_break_11",
+  "select_20",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_23",
+  "remark_1",
+  "section_break_25",
+  "select_21",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_27",
+  "remark_2",
+  "section_break_29",
+  "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_33",
+  "remark_3",
+  "section_break_35",
+  "select_36",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_39",
+  "remark_4",
+  "section_break_41",
+  "select_42",
+  "action_needed_5",
+  "responsible_person_5",
+  "column_break_45",
+  "remark_5",
+  "section_break_47",
+  "select_48",
+  "action_needed_6",
+  "responsible_person_6",
+  "column_break_51",
+  "remark_6",
+  "section_break_53",
+  "select_54",
+  "action_needed_7",
+  "responsible_person_7",
+  "column_break_57",
+  "remark_7",
+  "section_break_59",
+  "select_60",
+  "action_needed_8",
+  "responsible_person_8",
+  "column_break_63",
+  "remark_8",
+  "gender_equality_policy_section",
+  "select_66",
+  "action_needed_9",
+  "responsible_person_9",
+  "column_break_69",
+  "remark_9",
+  "section_break_71",
+  "organization",
+  "action_needed_10",
+  "responsible_person_10",
+  "column_break_75",
+  "remark_10",
+  "section_break_77",
+  "select_78",
+  "action_needed_11",
+  "responsible_person_11",
+  "column_break_81",
+  "remark_11",
+  "section_break_83",
+  "select_84",
+  "action_needed_12",
+  "responsible_person_12",
+  "column_break_87",
+  "remark_12",
+  "section_break_89",
+  "select_90",
+  "action_needed_13",
+  "responsible_person_13",
+  "column_break_93",
+  "remark_13",
+  "section_break_95",
+  "select_96",
+  "action_needed_14",
+  "responsible_person_14",
+  "column_break_99",
+  "remark_14",
+  "section_break_101",
+  "select_102",
+  "action_needed_15",
+  "responsible_person_15",
+  "column_break_105",
+  "remark_15",
+  "section_break_107",
+  "select_108",
+  "action_needed_16",
+  "responsible_person_16",
+  "column_break_111",
+  "remark_16",
+  "section_break_113",
+  "select_114",
+  "action_needed_17",
+  "responsible_person_17",
+  "column_break_117",
+  "remark_17",
+  "section_break_119",
+  "select_120",
+  "action_needed_18",
+  "responsible_person_18",
+  "column_break_123",
+  "remark_18",
+  "section_break_125",
+  "select_126",
+  "action_needed_19",
+  "responsible_person_19",
+  "column_break_129",
+  "remark_19",
+  "section_break_131",
+  "select_132",
+  "action_needed_20",
+  "responsible_20",
+  "column_break_135",
+  "remark_20",
+  "section_break_137",
+  "select_138",
+  "action_needed_21",
+  "responsible_person_21",
+  "column_break_141",
+  "remark_21",
+  "section_break_143",
+  "select_144",
+  "action_needed_22",
+  "responsible_person_22",
+  "column_break_147",
+  "remark_22",
+  "section_break_149",
+  "prevention_of_sexual_harassment",
+  "action_needed_23",
+  "responsible_person_23",
+  "column_break_153",
+  "remark_23",
+  "section_break_155",
+  "select_156",
+  "action_needed_24",
+  "responsible_person_24",
+  "column_break_159",
+  "remark_24",
+  "section_break_161",
+  "select_162",
+  "action_needed_25",
+  "responsible_person_25",
+  "column_break_165",
+  "remark_25",
+  "section_break_167",
+  "select_168",
+  "action_needed_26",
+  "responsible_person_26",
+  "column_break_171",
+  "remark_26",
+  "section_break_173",
+  "select_174",
+  "action_needed_27",
+  "responsible_person_27",
+  "column_break_177",
+  "remark_27",
+  "section_break_179",
+  "select_180",
+  "action_needed_28",
+  "responsible_person_28",
+  "column_break_183",
+  "remark_28",
+  "section_break_169",
+  "select_170",
+  "action_needed_29",
+  "responsible_person_29",
+  "column_break_173",
+  "remark_29",
+  "section_break_175",
+  "select_176",
+  "action_needed_30",
+  "responsible_person_30",
+  "column_break_179",
+  "remark_30",
+  "section_break_183",
+  "select_184",
+  "action_needed_31",
+  "responsible_person_31",
+  "column_break_187",
+  "remark_31",
+  "section_break_187",
+  "next"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "label": "Farm",
+   "options": "Farm Profile"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break",
+   "label": "Implementation of Integrated Pest Management IPM"
+  },
+  {
+   "fieldname": "select_20",
+   "fieldtype": "Select",
+   "label": "The Person technically responsible for Pest control has up to date awareness training in IPM",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_21",
+   "fieldtype": "Select",
+   "label": "The Farm is able to explain how the use of pesticide is being reduced or minimized on the farm by the implementation of IPM ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "and the populations of relevant biological control agents when biological control agents are being introduced",
+   "fieldname": "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+   "fieldtype": "Select",
+   "label": "The farm uses appropriate crop scout techniques to monitor the incidence and severity of pest and diseases infestation in the crop ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_36",
+   "fieldtype": "Select",
+   "label": "Treatments (Interventions) are applied when the Crop Scout results indicate that pest or disease occurrence is likely to cause crop loss",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_42",
+   "fieldtype": "Select",
+   "label": "Plant protection products applied are appropriate for the target and are applied as recommended on the product label",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_5",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_5",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_5",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_47",
+   "fieldtype": "Section Break",
+   "label": "Use of Biological Agents and Botanical Plant extracts for Pest and Disease control and/ or Growth Stimulation"
+  },
+  {
+   "fieldname": "select_48",
+   "fieldtype": "Select",
+   "label": "Biological Agents introduced into the production area for pest control must be registered for use in Ethiopia or an approved trial ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_6",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_6",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_6",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_53",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_54",
+   "fieldtype": "Select",
+   "label": "Introduction must be recorded; name or organism, trade name of organism, date of introduction, method of application",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_7",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_7",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_57",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_7",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_59",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_60",
+   "fieldtype": "Select",
+   "label": "All importation of biological agents and pesticides for trials purpose must be done with permission from and in collaboration with MoA APHRD",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_8",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_8",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_63",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_8",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "gender_equality_policy_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_66",
+   "fieldtype": "Select",
+   "label": "Agreed trails procedures for implementation, recording and reporting must be followed",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_9",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_9",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_69",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_9",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "plant origin or trade name, site treated, area, date of application and rate of application, name of person authorizing the application  ",
+   "fieldname": "section_break_71",
+   "fieldtype": "Section Break",
+   "label": "The application of \u2018home made\u2019 and proprietary plant extracts for pest and disease control or growth stimulation must be recorded"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Select",
+   "label": "Where the product used is registered, details of the registration should be available on the farm",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_10",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_10",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_75",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_10",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_77",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_78",
+   "fieldtype": "Select",
+   "label": "Where the product is \u2018Home made\u2019 details of the method of preparation should be available on the farm",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_11",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_11",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_81",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_11",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_83",
+   "fieldtype": "Section Break",
+   "label": "Selection of Pesticide products"
+  },
+  {
+   "fieldname": "select_84",
+   "fieldtype": "Select",
+   "label": "The farm must be able to explain the current government regulations that determine which pesticide products are allowed for use on the crops",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_12",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_12",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_87",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_12",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_89",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_90",
+   "fieldtype": "Select",
+   "label": "A list of all pesticide products Banned in internationally is available on the farm and the use of these banned products is not allowed",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_13",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_13",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_93",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_13",
+   "fieldtype": "Data",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_95",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_96",
+   "fieldtype": "Select",
+   "label": "An up to date list of all pesticide products used on the farm is maintained and is retained for 12 months",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_14",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_14",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_99",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_14",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_101",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "The Farm is able to show that pesticide products imported for \u2018own use\u2019 are registered for similar use in other countries and are imported and permitted for use in Ethiopia ",
+   "fieldname": "select_102",
+   "fieldtype": "Select",
+   "label": "All the crop protection products stored and applied are officially registered for use in Ethiopia or ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_15",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_15",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_105",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_15",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_107",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "when use of these products can be justified or\nWHO Class 1 pesticide products and products that are highly hazardous to the Environment or Pesticide products on the MPS Black List are not used on the Farm\n",
+   "fieldname": "select_108",
+   "fieldtype": "Select",
+   "label": "The Farm only uses WHO Class 1 pesticide products and products that are highly hazardous to the environment",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_16",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_16",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_111",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_16",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_113",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "or in the manufacturer\u2019s literature provided with the product at the point of sale",
+   "fieldname": "select_114",
+   "fieldtype": "Select",
+   "label": "Plant Protection Products (Pesticides) applied are appropriate for the target as recommended on the product label ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_17",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_17",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_117",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_17",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_119",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_120",
+   "fieldtype": "Select",
+   "label": "Details of all pesticides in the store can be traced by reference to Invoices, Goods Received Notes, and Stock Records",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_18",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_18",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_123",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_18",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_125",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Agreed trails procedures for implementation, recording, and reporting must be followed",
+   "fieldname": "select_126",
+   "fieldtype": "Select",
+   "label": "All importation of pesticides for trials purposes must be done with permission from and in collaboration with MoA APHRD",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_19",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_19",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_129",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_19",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_131",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "unless the product being trialed is already registered for a similar use in other countries",
+   "fieldname": "select_132",
+   "fieldtype": "Select",
+   "label": "Crop harvested from the trail plots must not be sold as certified product",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_20",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_20",
+   "fieldtype": "Data",
+   "label": "Responsible"
+  },
+  {
+   "fieldname": "column_break_135",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_20",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_137",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_138",
+   "fieldtype": "Select",
+   "label": "The Person technically responsible for Pest control has up to date awareness training in IPM ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_21",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_21",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_141",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_21",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_143",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "specified in the Pesticide Registration and Control Proclamation No 674/2010 and\nFor pesticides not registered in Ethiopia and imported directly by the Farm for own use, Pesticide labels must as a minimum be written in English and contain the information specified in the Pesticide Registration and Control Proclamation No 674/2010\n",
+   "fieldname": "select_144",
+   "fieldtype": "Select",
+   "label": "For pesticides Registered in Ethiopia, Pesticide labels must as a minimum be written in English and Amharic and contain the information ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_22",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_22",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_147",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_22",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_149",
+   "fieldtype": "Section Break",
+   "label": "Accessibility of health services"
+  },
+  {
+   "description": "Active ingredient, chemical group, WHO Class, re-entry time, target pest, preventative/curative, mode of action, potential risk to the environment\nAnd Labels and MSDS for all pesticides in use are on file on the farm\n",
+   "fieldname": "prevention_of_sexual_harassment",
+   "fieldtype": "Select",
+   "label": "Key properties of all pesticides in use are documented for reference; ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_23",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_23",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_153",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_23",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_155",
+   "fieldtype": "Section Break",
+   "label": "Pesticide Storage     "
+  },
+  {
+   "fieldname": "select_156",
+   "fieldtype": "Select",
+   "label": "Pesticide storage conditions comply with the relevant local and National, Legislation and regulations ref. Proclamation No 674/2010",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_24",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_24",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_159",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_24",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_161",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_162",
+   "fieldtype": "Select",
+   "label": "The store is structurally sound of robust construction and has a dedicated door which is kept locked. Windows are covered to exclude stock",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_25",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_25",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_165",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_25",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_167",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_168",
+   "fieldtype": "Select",
+   "label": "The store is built of fire-resistant materials i.e. it will withstand fire for at least 30 minutes",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_26",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_26",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_171",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_26",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_173",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_174",
+   "fieldtype": "Select",
+   "label": "The crop protection products storage facilities must be of a suitable size for the amount of stock",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_27",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_27",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_177",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_27",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_179",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "and the door is be bunded to contain spillage or liquid products are placed in trays to contain leakage",
+   "fieldname": "select_180",
+   "fieldtype": "Select",
+   "label": "The store is sited at a safe distance, guideline +/- 50  m from a Bore hole or river",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_28",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_28",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_183",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_28",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_169",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Ventilation must be to the outside not into other work areas",
+   "fieldname": "select_170",
+   "fieldtype": "Select",
+   "label": "The Store has sufficient and constant ventilation of fresh air or positive fan ventilation to avoid a build-up of harmful vapours",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_29",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_29",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_173",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_29",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_175",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_176",
+   "fieldtype": "Select",
+   "label": "The store provides adequate protection, as per any label recommendations, from atmospheric influences; sunlight, temperature ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_30",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_30",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_179",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_30",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_183",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_184",
+   "fieldtype": "Select",
+   "label": "The store has sufficient illumination to ensure that all product labels can be read easily on the shelves."
+  },
+  {
+   "fieldname": "action_needed_31",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_31",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_187",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_31",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_187",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "next",
+   "fieldtype": "Button",
+   "label": "Next"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 11:04:53.089378",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Implementation of pest management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,420 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Landscape and natural conservation audit-{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-03-05 11:22:06.963518",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm",
+  "section_break_1",
+  "date",
+  "audited_by",
+  "column_break_4",
+  "sites",
+  "positions",
+  "column_break_7",
+  "qualification",
+  "key_wildlife_habitats_section",
+  "condition_1",
+  "remark_1",
+  "key_species_section",
+  "condition_2",
+  "remark_2",
+  "archaeological_section",
+  "condition_3",
+  "remark_3",
+  "access_section",
+  "condition_4",
+  "remark_4",
+  "is_there_seasonal_rise_and_fall_in_water_level_section",
+  "condition_5",
+  "remark_5",
+  "section_break_26",
+  "condition_6",
+  "remark_6",
+  "section_break_27",
+  "condition_7",
+  "remark_7",
+  "section_break_30",
+  "condition_8",
+  "remark_8",
+  "section_break_33",
+  "condition_9",
+  "remark_9",
+  "section_break_36",
+  "condition_10",
+  "remark_10",
+  "section_break_39",
+  "condition_11",
+  "remark_11",
+  "section_break_42",
+  "condition_12",
+  "remark_12",
+  "section_break_45",
+  "condition_13",
+  "remark_13",
+  "section_break_48",
+  "condition_14",
+  "remark_14",
+  "section_break_51",
+  "condition_15",
+  "remark_15",
+  "section_break_54",
+  "condition_16",
+  "remark_16",
+  "section_break_57",
+  "condition_17",
+  "remark_17",
+  "section_break_60",
+  "condition",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "label": "Farm",
+   "options": "Farm Profile"
+  },
+  {
+   "description": "The objective of the audit is to understand the wildlife habitat, biodiversity, archeological or historic sites in the farm compound and define the policy and action plan.\n\nConservation action plan aims to enhance the farm to encourage greater biodiversity and is linked to any biodiversity action plans that exist in the local area or country. \n",
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Objectives "
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "audited_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Audit by",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sites",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sites "
+  },
+  {
+   "fieldname": "positions",
+   "fieldtype": "Data",
+   "label": "Positions"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "description": "Key Wildlife Habitats",
+   "fieldname": "key_wildlife_habitats_section",
+   "fieldtype": "Section Break",
+   "label": "Check Points"
+  },
+  {
+   "fieldname": "condition_1",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Key Species",
+   "fieldname": "key_species_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_2",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Archaeological/ Historic Features",
+   "fieldname": "archaeological_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_3",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Access",
+   "fieldname": "access_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_4",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Is there seasonal rise and fall in water level ",
+   "fieldname": "is_there_seasonal_rise_and_fall_in_water_level_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_5",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_5",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Is a drying up period of the year where there is no water",
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_6",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_6",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Are floras maintained to enhance animals, birds and insects ",
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_7",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_7",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Which animal, bird and plant-life are associated with water courses and wet lands",
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_8",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_8",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Is wildlife activity considered ",
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_9",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_9",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Land Use Current agricultural management practice",
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_10",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_10",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Is utilization of natural resource (water, fuel, soil) sustainable ",
+   "fieldname": "section_break_39",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_11",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_11",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Environmental Impacts upon wider environment, including energy usage ",
+   "fieldname": "section_break_42",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_12",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_12",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Waste disposal ",
+   "fieldname": "section_break_45",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_13",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_13",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Is soil erosion managed in the farm",
+   "fieldname": "section_break_48",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_14",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_14",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Are renewable source of energy used in the farm ",
+   "fieldname": "section_break_51",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_15",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_15",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "What kind of activities does the management took together with local communities ",
+   "fieldname": "section_break_54",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_16",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_16",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Does the management consider the environment in the neighbor and works to prevent negative impact",
+   "fieldname": "section_break_57",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition_17",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark_17",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "Employees of the farm are there aware of the environment policy and activities undertaken by the management to enhance the environment ",
+   "fieldname": "section_break_60",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "condition",
+   "fieldtype": "Data",
+   "label": "Condition"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 11:04:20.087536",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Landscape and natural conservation audit",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

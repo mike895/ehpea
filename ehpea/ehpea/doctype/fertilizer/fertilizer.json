@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{item}",
+ "creation": "2022-03-03 15:03:02.728746",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "sub_item",
+  "value",
+  "column_break_4",
+  "action_needed",
+  "action_status",
+  "responsible_person"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Data",
+   "label": "Item"
+  },
+  {
+   "fieldname": "sub_item",
+   "fieldtype": "Data",
+   "label": "Sub item"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Select",
+   "label": "Value",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_needed",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "action_status",
+   "fieldtype": "Select",
+   "label": "Action Status",
+   "options": "pending\nin progress\ncompleted\ndelayed"
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Link",
+   "label": "Responsible Person",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 11:06:51.007081",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Fertilizer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

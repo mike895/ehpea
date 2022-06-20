@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-13 09:25:06.654497",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "crop",
+  "crop_water_usagem3",
+  "product_crop_producedton",
+  "water_usage_m3ton_of_product_produced",
+  "crop_rainfall_mm",
+  "average_air_temperature\u00bac"
+ ],
+ "fields": [
+  {
+   "fieldname": "crop",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Crop"
+  },
+  {
+   "fieldname": "crop_water_usagem3",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Crop water usage(m3)"
+  },
+  {
+   "fieldname": "product_crop_producedton",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Product (crop) produced(ton)"
+  },
+  {
+   "fieldname": "water_usage_m3ton_of_product_produced",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Water usage (m3/ton of product produced"
+  },
+  {
+   "fieldname": "crop_rainfall_mm",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Crop rainfall (mm)"
+  },
+  {
+   "fieldname": "average_air_temperature\u00bac",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Average air temperature(\u00baC)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-20 11:04:29.458160",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "water efficiency table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

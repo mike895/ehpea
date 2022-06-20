@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-13 09:34:44.485543",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "gh",
+  "valve",
+  "area",
+  "crop",
+  "number_of_cycle",
+  "water_per_cycle_m3",
+  "total_water_per_day_m3",
+  "remark",
+  "operator"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "gh",
+   "fieldtype": "Data",
+   "label": "GH"
+  },
+  {
+   "fieldname": "valve",
+   "fieldtype": "Data",
+   "label": "Valve"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fieldname": "crop",
+   "fieldtype": "Data",
+   "label": "Crop"
+  },
+  {
+   "fieldname": "number_of_cycle",
+   "fieldtype": "Int",
+   "label": "Number of cycle"
+  },
+  {
+   "fieldname": "water_per_cycle_m3",
+   "fieldtype": "Float",
+   "label": "Water per cycle m3"
+  },
+  {
+   "fieldname": "total_water_per_day_m3",
+   "fieldtype": "Float",
+   "label": "Total water per day m3"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "operator",
+   "fieldtype": "Link",
+   "label": "Operator",
+   "options": "Supplier"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-20 11:04:08.787372",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Water record table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-17 11:30:03.212247",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "farm",
+  "column_break_3",
+  "all_farm"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "user",
+   "options": "User"
+  },
+  {
+   "depends_on": "eval:doc.all_farm !=1;",
+   "description": "This user will not receive Information out of the selected Farm.",
+   "fieldname": "farm",
+   "fieldtype": "Table MultiSelect",
+   "label": "Farm",
+   "mandatory_depends_on": "eval:doc.all_farm!=1;",
+   "options": "Selected Farm"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "description": "Whether this user has access to all the Farms?",
+   "fieldname": "all_farm",
+   "fieldtype": "Check",
+   "label": "All farm"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 10:57:10.787053",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Ehpea Permission",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

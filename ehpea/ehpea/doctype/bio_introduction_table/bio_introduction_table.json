@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-12 13:44:17.919920",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sn",
+  "product_name",
+  "active_agent",
+  "bioagent_type",
+  "unit_measurement",
+  "time_of_introductionreleaseapplication",
+  "amount",
+  "target_pest",
+  "greenhouse_no",
+  "introducer",
+  "introductionapp"
+ ],
+ "fields": [
+  {
+   "fieldname": "sn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SN"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Name"
+  },
+  {
+   "fieldname": "active_agent",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Active Agent"
+  },
+  {
+   "fieldname": "bioagent_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bioagent Type"
+  },
+  {
+   "fieldname": "unit_measurement",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unit Measurement"
+  },
+  {
+   "fieldname": "time_of_introductionreleaseapplication",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Time of Introduction/release/Application"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "target_pest",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Target Pest"
+  },
+  {
+   "fieldname": "greenhouse_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "GreenHouse No"
+  },
+  {
+   "fieldname": "introducer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Introducer"
+  },
+  {
+   "fieldname": "introductionapp",
+   "fieldtype": "Data",
+   "label": "Introduction/Application/Release"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-20 11:02:52.537645",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Bio introduction table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

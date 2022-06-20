@@ -1,0 +1,1215 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Workers Walfare OSH part 3-{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-04-12 09:20:46.098170",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm",
+  "section_break_11",
+  "select_20",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_23",
+  "remark_1",
+  "section_break_25",
+  "select_21",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_27",
+  "remark_2",
+  "section_break_29",
+  "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_33",
+  "remark_3",
+  "section_break_35",
+  "select_36",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_39",
+  "remark_4",
+  "section_break_41",
+  "select_42",
+  "action_needed_5",
+  "responsible_person_5",
+  "column_break_45",
+  "remark_5",
+  "section_break_47",
+  "select_48",
+  "action_needed_6",
+  "responsible_person_6",
+  "column_break_51",
+  "remark_6",
+  "section_break_53",
+  "select_54",
+  "action_needed_7",
+  "responsible_person_7",
+  "column_break_57",
+  "remark_7",
+  "section_break_59",
+  "select_60",
+  "action_needed_8",
+  "responsible_person_8",
+  "column_break_63",
+  "remark_8",
+  "gender_equality_policy_section",
+  "select_66",
+  "action_needed_9",
+  "responsible_person_9",
+  "column_break_69",
+  "remark_9",
+  "section_break_71",
+  "organization",
+  "action_needed_10",
+  "responsible_person_10",
+  "column_break_75",
+  "remark_10",
+  "section_break_77",
+  "select_78",
+  "action_needed_11",
+  "responsible_person_11",
+  "column_break_81",
+  "remark_11",
+  "section_break_83",
+  "select_84",
+  "action_needed_12",
+  "responsible_person_12",
+  "column_break_87",
+  "remark_12",
+  "section_break_89",
+  "select_90",
+  "action_needed_13",
+  "responsible_person_13",
+  "column_break_93",
+  "remark_13",
+  "section_break_95",
+  "select_96",
+  "action_needed_14",
+  "responsible_person_14",
+  "column_break_99",
+  "remark_14",
+  "section_break_101",
+  "select_102",
+  "action_needed_15",
+  "responsible_person_15",
+  "column_break_105",
+  "remark_15",
+  "section_break_107",
+  "select_108",
+  "action_needed_16",
+  "responsible_person_16",
+  "column_break_111",
+  "remark_16",
+  "section_break_113",
+  "select_114",
+  "action_needed_17",
+  "responsible_person_17",
+  "column_break_117",
+  "remark_17",
+  "section_break_119",
+  "select_120",
+  "action_needed_18",
+  "responsible_person_18",
+  "column_break_123",
+  "remark_18",
+  "section_break_125",
+  "select_126",
+  "action_needed_19",
+  "responsible_person_19",
+  "column_break_129",
+  "remark_19",
+  "section_break_131",
+  "select_132",
+  "action_needed_20",
+  "responsible_20",
+  "column_break_135",
+  "remark_20",
+  "section_break_137",
+  "select_138",
+  "action_needed_21",
+  "responsible_person_21",
+  "column_break_141",
+  "remark_21",
+  "section_break_143",
+  "select_144",
+  "action_needed_22",
+  "responsible_person_22",
+  "column_break_147",
+  "remark_22",
+  "section_break_149",
+  "prevention_of_sexual_harassment",
+  "action_needed_23",
+  "responsible_person_23",
+  "column_break_153",
+  "remark_23",
+  "section_break_155",
+  "select_156",
+  "action_needed_24",
+  "responsible_person_24",
+  "column_break_159",
+  "remark_24",
+  "section_break_161",
+  "select_162",
+  "action_needed_25",
+  "responsible_person_25",
+  "column_break_165",
+  "remark_25",
+  "section_break_167",
+  "select_168",
+  "action_needed_26",
+  "responsible_person_26",
+  "column_break_171",
+  "remark_26",
+  "section_break_173",
+  "select_174",
+  "action_needed_27",
+  "responsible_person_27",
+  "column_break_177",
+  "remark_27",
+  "section_break_179",
+  "select_180",
+  "action_needed_28",
+  "responsible_person_28",
+  "column_break_183",
+  "remark_28",
+  "section_break_169",
+  "select_170",
+  "action_needed_29",
+  "responsible_person_29",
+  "column_break_173",
+  "remark_29",
+  "section_break_175",
+  "select_176",
+  "action_needed_30",
+  "responsible_person_30",
+  "column_break_179",
+  "remark_30",
+  "section_break_187",
+  "select_182",
+  "action_needed_31",
+  "responsible_person_31",
+  "column_break_185",
+  "remark_31",
+  "section_break_189",
+  "select_190",
+  "action_needed_32",
+  "responsible_person_32",
+  "column_break_193",
+  "remark_32",
+  "section_break_195",
+  "select_196",
+  "action_needed_33",
+  "responsible_person_33",
+  "column_break_199",
+  "remark_33",
+  "section_break_188",
+  "next"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "label": "Farm",
+   "options": "Farm Profile"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break",
+   "label": "Training"
+  },
+  {
+   "fieldname": "select_20",
+   "fieldtype": "Select",
+   "label": "The farm has an OSH Training plan",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_21",
+   "fieldtype": "Select",
+   "label": "The training plan is implemented",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+   "fieldtype": "Select",
+   "label": "All OSH related trainings are recorded, date, provider, attendance, and content ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break",
+   "label": "When certificates are issued by the training provider:"
+  },
+  {
+   "fieldname": "select_36",
+   "fieldtype": "Select",
+   "label": "The original is given to the participant",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_42",
+   "fieldtype": "Select",
+   "label": "A copy are held in the training file",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_5",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_5",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_5",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_47",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_48",
+   "fieldtype": "Select",
+   "label": "A copy is placed in the personnel file",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_6",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_6",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_6",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_53",
+   "fieldtype": "Section Break",
+   "label": "Awareness Training for farm staffs; Induction training is provided for all staff about"
+  },
+  {
+   "fieldname": "select_54",
+   "fieldtype": "Select",
+   "label": "Farm Safety Rules",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_7",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_7",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_57",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_7",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_59",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_60",
+   "fieldtype": "Select",
+   "label": "Action to be taken when Safety Rules are broken",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_8",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_8",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_63",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_8",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "gender_equality_policy_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_66",
+   "fieldtype": "Select",
+   "label": "What to do if they have an accident or feel ill whilst at work",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_9",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_9",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_69",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_9",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_71",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Select",
+   "label": "Location of toilets and drinking water",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_10",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_10",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_75",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_10",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_77",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_78",
+   "fieldtype": "Select",
+   "label": "Farm Hazards, warning signs and restricted access area on the farm",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_11",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_11",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_81",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_11",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_83",
+   "fieldtype": "Section Break",
+   "label": "Staff are able to explain:"
+  },
+  {
+   "fieldname": "select_84",
+   "fieldtype": "Select",
+   "label": "Farm Safety Rules",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_12",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_12",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_87",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_12",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_89",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_90",
+   "fieldtype": "Select",
+   "label": "What will happen if they break the rules",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_13",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_13",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_93",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_13",
+   "fieldtype": "Data",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_95",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_96",
+   "fieldtype": "Select",
+   "label": "What to do if they have an accident or feel ill whilst at work",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_14",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_14",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_99",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_14",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_101",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_102",
+   "fieldtype": "Select",
+   "label": "Where to find the toilets and safe drinking water",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_15",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_15",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_105",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_15",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_107",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_108",
+   "fieldtype": "Select",
+   "label": "What and where are the hazardous places on the farm site",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_16",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_16",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_111",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_16",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_113",
+   "fieldtype": "Section Break",
+   "label": "All farm staff are informed about who are the key people relating to OSH:"
+  },
+  {
+   "fieldname": "select_114",
+   "fieldtype": "Select",
+   "label": "Farm Safety Officer",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_17",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_17",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_117",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_17",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_119",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_120",
+   "fieldtype": "Select",
+   "label": "Farm OSH Committee members",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_18",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_18",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_123",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_18",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_125",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_126",
+   "fieldtype": "Select",
+   "label": "First Aid staff",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_19",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_19",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_129",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_19",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_131",
+   "fieldtype": "Section Break",
+   "label": "All employees are made aware of their responsibility for OSH on the farm:"
+  },
+  {
+   "fieldname": "select_132",
+   "fieldtype": "Select",
+   "label": "Behave responsibly",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_20",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_20",
+   "fieldtype": "Data",
+   "label": "Responsible"
+  },
+  {
+   "fieldname": "column_break_135",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_20",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_137",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_138",
+   "fieldtype": "Select",
+   "label": "Follow instructions and ask the supervisor if not sure what to do or problems arise",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_21",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_21",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_141",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_21",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_143",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_144",
+   "fieldtype": "Select",
+   "label": "Report breakages or wear and tear to machinery and equipment",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_22",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_22",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_147",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_22",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_149",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "prevention_of_sexual_harassment",
+   "fieldtype": "Select",
+   "label": "Do not put hands into moving machinery or remove safety guards",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_23",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_23",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_153",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_23",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_155",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_156",
+   "fieldtype": "Select",
+   "label": "Safety awareness training is revised, minimum annually",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_24",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_24",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_159",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_24",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_161",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_162",
+   "fieldtype": "Select",
+   "label": "Staff are informed of any specific risks associated with the work that they are to undertake",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_25",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_25",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_165",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_25",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_167",
+   "fieldtype": "Section Break",
+   "label": "Training and or Certification for employees engaged in potentially  \u2018hazardous\u2019 work"
+  },
+  {
+   "fieldname": "select_168",
+   "fieldtype": "Select",
+   "label": "Electrical work",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_26",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_26",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_171",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_26",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_173",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_174",
+   "fieldtype": "Select",
+   "label": "Medical care",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_27",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_27",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_177",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_27",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_179",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_180",
+   "fieldtype": "Select",
+   "label": "Refrigeration",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_28",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_28",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_183",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_28",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_169",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_170",
+   "fieldtype": "Select",
+   "label": "Welding, cutting and grinding",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_29",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_29",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_173",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_29",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_175",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_176",
+   "fieldtype": "Select",
+   "label": "Driving Tractors",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_30",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_30",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_179",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_30",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_187",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_182",
+   "fieldtype": "Select",
+   "label": "Driving farm vehicles"
+  },
+  {
+   "fieldname": "action_needed_31",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_31",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_185",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_31",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_189",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_190",
+   "fieldtype": "Select",
+   "label": "Fork Lift Truck operation"
+  },
+  {
+   "fieldname": "action_needed_32",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_32",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_193",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_32",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_195",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_196",
+   "fieldtype": "Select",
+   "label": "Vehicle maintenance"
+  },
+  {
+   "fieldname": "action_needed_33",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_33",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_199",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_33",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_188",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "next",
+   "fieldtype": "Button",
+   "label": "Next"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 10:58:19.900136",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Workers Walfare OSH part 3",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

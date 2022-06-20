@@ -1,0 +1,535 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Gender Grievance Handling{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-03-05 10:46:41.073003",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic",
+  "farm",
+  "column_break_3",
+  "cluster",
+  "section_break_5",
+  "gender_focal_person",
+  "total_employees",
+  "total_employees_m",
+  "column_break_6",
+  "position",
+  "male",
+  "male_manager",
+  "column_break_12",
+  "phone",
+  "female",
+  "female_manager",
+  "section_break_17",
+  "select_18",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_21",
+  "remark_1",
+  "section_break_23",
+  "select_24",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_27",
+  "remark_2",
+  "section_break_29",
+  "select_30",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_33",
+  "remark_3",
+  "section_break_35",
+  "select_36",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_39",
+  "remark_4",
+  "section_break_41",
+  "select_42",
+  "action_needed_5",
+  "responsible_person_5",
+  "column_break_45",
+  "remark_5",
+  "section_break_47",
+  "select_48",
+  "action_needed_6",
+  "responsible_person_6",
+  "column_break_51",
+  "remark_6",
+  "section_break_53",
+  "select_54",
+  "action_needed_7",
+  "responsible_person_7",
+  "column_break_57",
+  "remark_7",
+  "section_break_59",
+  "select_60",
+  "action_needed_8",
+  "responsible_person_8",
+  "column_break_63",
+  "remark_8",
+  "section_break_65",
+  "select_66",
+  "action_needed_9",
+  "responsible_person_9",
+  "column_break_69",
+  "remark_9",
+  "section_break_71",
+  "select_72",
+  "action_needed_10",
+  "responsible_person_10",
+  "column_break_75",
+  "remark_10",
+  "section_break_77",
+  "select_78",
+  "action_needed_11",
+  "responsible_person_11",
+  "column_break_81",
+  "remark_11",
+  "section_break_83",
+  "conducted_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic",
+   "fieldtype": "Section Break",
+   "label": "Basic Farm Information"
+  },
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Farm",
+   "options": "Farm Profile",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cluster",
+   "fieldtype": "Data",
+   "label": "Cluster "
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gender_focal_person",
+   "fieldtype": "Link",
+   "label": "Gender Focal person",
+   "options": "User"
+  },
+  {
+   "fieldname": "total_employees",
+   "fieldtype": "Int",
+   "label": "Total employees"
+  },
+  {
+   "fieldname": "total_employees_m",
+   "fieldtype": "Int",
+   "label": "Total Employees at management level"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "male",
+   "fieldtype": "Int",
+   "label": "Male"
+  },
+  {
+   "fieldname": "male_manager",
+   "fieldtype": "Int",
+   "label": "Male Manager"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Int",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "female",
+   "fieldtype": "Int",
+   "label": "Female"
+  },
+  {
+   "fieldname": "female_manager",
+   "fieldtype": "Int",
+   "label": "Female Manager"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break",
+   "label": "Action taken by the company to ensure complaints of GBV are handled by skilled complaint handling staff"
+  },
+  {
+   "fieldname": "select_18",
+   "fieldtype": "Select",
+   "label": "Complaint handling staff gender   committee is aware of company\u2019s procedures to investigate and resolve complaints of GBV",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_24",
+   "fieldtype": "Select",
+   "label": "Complaints of GBV are handled by skilled complaint handling staff",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_30",
+   "fieldtype": "Select",
+   "label": "Complaint handling staff is advised about confidentiality",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_36",
+   "fieldtype": "Select",
+   "label": "requirements when handling complaints",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_42",
+   "fieldtype": "Select",
+   "label": "The designated committee members are seen as having",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_5",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_5",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_5",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_47",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_48",
+   "fieldtype": "Select",
+   "label": "credibility, integrity and impartiality",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_6",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_6",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_6",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_53",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_54",
+   "fieldtype": "Select",
+   "label": "Sexual harassment reporting template present",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_7",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_7",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_57",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_7",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_59",
+   "fieldtype": "Section Break",
+   "label": "Reviewing the effectiveness of Company\u2019s action against GBV"
+  },
+  {
+   "fieldname": "select_60",
+   "fieldtype": "Select",
+   "label": "Complaints  of GBV are acted within days from being received/filed",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_8",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_8",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_63",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_8",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_65",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_66",
+   "fieldtype": "Select",
+   "label": "Complaints of GBV are well recorded and documented for evidence",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_9",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_9",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_69",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_9",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_71",
+   "fieldtype": "Section Break",
+   "label": "Prevalence of GBV issues at farm"
+  },
+  {
+   "fieldname": "select_72",
+   "fieldtype": "Select",
+   "label": "Is there case of harassment and are they reported (communicate with gender committee)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_10",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_10",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_75",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_10",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_77",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_78",
+   "fieldtype": "Select",
+   "label": "What kind of harassment? is the issue increasing or decreasing?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_11",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_11",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_81",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_11",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_83",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "conducted_by",
+   "fieldtype": "Link",
+   "label": "Conducted By",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 11:08:05.188148",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Gender Grievance Handling",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

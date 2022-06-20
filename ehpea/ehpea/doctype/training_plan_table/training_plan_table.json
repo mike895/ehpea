@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-14 16:10:15.391720",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tittle",
+  "location",
+  "date",
+  "duration",
+  "accomplished_date",
+  "type",
+  "description",
+  "number_of_trainees",
+  "trainer"
+ ],
+ "fields": [
+  {
+   "fieldname": "tittle",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Duration"
+  },
+  {
+   "fieldname": "accomplished_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Accomplished Date "
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "DocType Link"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "number_of_trainees",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Number of trainees"
+  },
+  {
+   "fieldname": "trainer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trainer "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-20 11:03:16.619038",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Training plan table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

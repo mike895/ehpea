@@ -1,0 +1,1041 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Liquid Waste Management-{YY}-{MM}-{DD}-{farm_name}",
+ "creation": "2022-03-03 15:43:46.989864",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm_name",
+  "person_responsible",
+  "column_break_3",
+  "site",
+  "position",
+  "column_break_6",
+  "date",
+  "signed",
+  "environmental_policy_and_procedure_section",
+  "select_8",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_12",
+  "action_completed_1",
+  "section_break_15",
+  "select_16",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_19",
+  "action_completed_2",
+  "section_break_21",
+  "select_22",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_25",
+  "action_completed_3",
+  "section_break_27",
+  "select_28",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_31",
+  "action_completed_4",
+  "section_break_33",
+  "select_34",
+  "action_needed_5",
+  "responsible_person_5",
+  "column_break_37",
+  "action_completed_5",
+  "section_break_39",
+  "select_40",
+  "action_needed_6",
+  "responsible_person_6",
+  "column_break_43",
+  "action_completed_6",
+  "section_break_45",
+  "select_46",
+  "action_needed_7",
+  "responsible_person_7",
+  "column_break_50",
+  "action_completed_7",
+  "section_break_51",
+  "select_52",
+  "action_needed_8",
+  "responsible_person_8",
+  "column_break_55",
+  "action_comleted_8",
+  "section_break_57",
+  "select_58",
+  "action_needed_9",
+  "responsible_person_9",
+  "column_break_61",
+  "action_completed_9",
+  "section_break_63",
+  "select_64",
+  "action_needed_10",
+  "responsible_person_10",
+  "column_break_67",
+  "action_completed_10",
+  "section_break_69",
+  "select_70",
+  "action_needed_11",
+  "responsible_person_11",
+  "column_break_73",
+  "action_completed_11",
+  "section_break_75",
+  "select_76",
+  "action_needed_12",
+  "responsible_person_12",
+  "column_break_79",
+  "action_completed_12",
+  "section_break_81",
+  "select_82",
+  "action_needed_13",
+  "responsible_person_13",
+  "column_break_85",
+  "action_completed_13",
+  "section_break_87",
+  "select_88",
+  "action_needed_14",
+  "responsible_person_14",
+  "column_break_91",
+  "action_completed_14",
+  "section_break_93",
+  "select_94",
+  "action_needed_15",
+  "responsible_person_15",
+  "column_break_97",
+  "action_completed_15",
+  "section_break_99",
+  "select_100",
+  "action_needed_16",
+  "responsible_person_16",
+  "column_break_103",
+  "action_completed_16",
+  "section_break_105",
+  "select_106",
+  "action_needed_17",
+  "responsible_person_17",
+  "column_break_109",
+  "action_completed_17",
+  "section_break_111",
+  "select_112",
+  "action_needed_18",
+  "responsible_person_18",
+  "column_break_115",
+  "action_completed_18",
+  "section_break_117",
+  "select_118",
+  "action_needed_19",
+  "responsible_person_19",
+  "column_break_121",
+  "action_completed_19",
+  "section_break_123",
+  "select_124",
+  "action_needed_20",
+  "responsible_person_20",
+  "column_break_127",
+  "action_completed_20",
+  "section_break_129",
+  "select_130",
+  "action_needed_21",
+  "responsible_person_21",
+  "column_break_133",
+  "action_completed_21",
+  "section_break_135",
+  "select_136",
+  "action_needed_22",
+  "responsible_person_22",
+  "column_break_139",
+  "action_completed_22",
+  "section_break_141",
+  "select_142",
+  "action_needed_23",
+  "responsible_person_23",
+  "column_break_145",
+  "action_completed_23",
+  "section_break_147",
+  "select_148",
+  "action_needed_24",
+  "responsible_person_24",
+  "column_break_151",
+  "action_completed_24",
+  "section_break_153",
+  "select_154",
+  "action_needed_25",
+  "responsible_person_25",
+  "column_break_157",
+  "action_completed_25",
+  "section_break_159",
+  "select_160",
+  "action_needed_26",
+  "responsible_person_26",
+  "column_break_163",
+  "action_completed_26",
+  "section_break_165",
+  "select_166",
+  "action_neede_27",
+  "responsible_person_27",
+  "column_break_169",
+  "action_completed_27"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Farm Name",
+   "options": "Farm Profile",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "person_responsible",
+   "fieldtype": "Data",
+   "label": "Person Responsible"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "site",
+   "fieldtype": "Data",
+   "label": "Site"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signed",
+   "fieldtype": "Data",
+   "label": "Signed"
+  },
+  {
+   "fieldname": "environmental_policy_and_procedure_section",
+   "fieldtype": "Section Break",
+   "label": "Environmental Policy and Procedure "
+  },
+  {
+   "fieldname": "select_8",
+   "fieldtype": "Select",
+   "label": "Farm have an environmental policy document that supports a commitment to environmental protection",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_1",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "includes the discharge of untreated waste water, contamination of surface and ground water, pollution of soil, extraction of water.",
+   "fieldname": "select_16",
+   "fieldtype": "Select",
+   "label": "The policy document explains natural resource degradation and environmental pollution ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_2",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_22",
+   "fieldtype": "Select",
+   "label": "The policy document states the environmental conservation and ecofriendly production",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_3",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_28",
+   "fieldtype": "Select",
+   "label": "The policy can offer solutions for an environmental pollutions",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_4",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_34",
+   "fieldtype": "Select",
+   "label": "The policy document incorporate the producers of better and efficient waste management practices ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_5",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_5",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_5",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_39",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_40",
+   "fieldtype": "Select",
+   "label": "The policy document ban the discharge of untreated waste water that effluent from each sources of the farm.",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_6",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_6",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_6",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_45",
+   "fieldtype": "Section Break",
+   "label": "Design & construction of wetlands"
+  },
+  {
+   "fieldname": "select_46",
+   "fieldtype": "Select",
+   "label": "Construct the wetland system in the farm ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_7",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_7",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_50",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_7",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_51",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_52",
+   "fieldtype": "Select",
+   "label": "The CW is constructed with standard construction materials that takes to account the load of waste water effluent per day and filled gravel",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_8",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_8",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_55",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_comleted_8",
+   "fieldtype": "Small Text",
+   "label": "Action Comleted"
+  },
+  {
+   "fieldname": "section_break_57",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_58",
+   "fieldtype": "Select",
+   "label": "The wetland is constructed as per the design that proposed by the consultants",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_9",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_9",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_61",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_9",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_63",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_64",
+   "fieldtype": "Select",
+   "label": "The CW incorporate all the compartments as per the design (PHT, VFB, GBH and Ponds) accordingly ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_10",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_10",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_67",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_10",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_69",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_70",
+   "fieldtype": "Select",
+   "label": "The design of the CW fit with the actual construction",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_11",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_11",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_73",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_11",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_75",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_76",
+   "fieldtype": "Select",
+   "label": "All sources of waste water are listed ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_12",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_12",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_79",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_12",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_81",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_82",
+   "fieldtype": "Select",
+   "label": "There is grease trap (if) for waste water from canteen ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_13",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_13",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_85",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_13",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_87",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_88",
+   "fieldtype": "Select",
+   "label": "Waste water sourced from post harvesting areas installed a screen",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_14",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_14",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_91",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_14",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_93",
+   "fieldtype": "Section Break",
+   "label": "Operation and Maintenance of the wetland"
+  },
+  {
+   "fieldname": "select_94",
+   "fieldtype": "Select",
+   "label": "Check to ensure the pump switch ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_15",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_15",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_97",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_15",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_99",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_100",
+   "fieldtype": "Select",
+   "label": "EM mixing ratio (45lt EM, 45lt molasses & 910lt water) in every 15 days",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_16",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_16",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_103",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_16",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_105",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_106",
+   "fieldtype": "Select",
+   "label": "All tools used for CW maintenance are keeps on CW site safe and well oiled (for those with moving parts)",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_17",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_17",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_109",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_17",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_111",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_112",
+   "fieldtype": "Select",
+   "label": "Ensure there is no flooding/blockage in the GBH",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_18",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_18",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_115",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_18",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_117",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_118",
+   "fieldtype": "Select",
+   "label": "Clean the grease traps (if any) once every month",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_19",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_19",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_121",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_19",
+   "fieldtype": "Small Text",
+   "label": "Action Completed "
+  },
+  {
+   "fieldname": "section_break_123",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_124",
+   "fieldtype": "Select",
+   "label": "All screens should be freed of debris every week",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_20",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_20",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_127",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_20",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_129",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_130",
+   "fieldtype": "Select",
+   "label": "Remove accumulating sediment from the sedimentation chamber or PHT",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_21",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_21",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_133",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_21",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_135",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_136",
+   "fieldtype": "Select",
+   "label": "All manholes have been cleaned regularly and manhole covers well kept",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_22",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_22",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_139",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_22",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_141",
+   "fieldtype": "Section Break",
+   "label": "Pipes"
+  },
+  {
+   "description": "Flushing pipework from time to time with high pressure water, \n Must continuous checking of leakage,\n Pipes exposed to direct sunlight needs to replace after 3 years\n",
+   "fieldname": "select_142",
+   "fieldtype": "Select",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_23",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_23",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_145",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_23",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_147",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "All fully-grown plants be harvested\nreplanting GBH plants with 3 years \n",
+   "fieldname": "select_148",
+   "fieldtype": "Select",
+   "label": "Vegetables",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_24",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_24",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_151",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_24",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_153",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "The gravel/sand should checked every 6 months\n Removed media should replace after proper cleaning \n",
+   "fieldname": "select_154",
+   "fieldtype": "Select",
+   "label": "Substrate",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_25",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_25",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_157",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_25",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_159",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Clean and checked properly \nConnected with standby generator \n",
+   "fieldname": "select_160",
+   "fieldtype": "Select",
+   "label": "Pumps",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_26",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_26",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_163",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_26",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_165",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_166",
+   "fieldtype": "Select",
+   "label": "There is a diversion pipe ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_neede_27",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_27",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_169",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_27",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 11:07:10.387945",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Liquid Waste Management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

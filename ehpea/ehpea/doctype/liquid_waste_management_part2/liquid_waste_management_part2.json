@@ -1,0 +1,787 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Liquid Waste Management Part2-{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-04-14 15:24:56.662698",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm",
+  "wetland_section",
+  "select_8",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_12",
+  "action_completed_1",
+  "section_break_15",
+  "select_16",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_19",
+  "action_completed_2",
+  "section_break_21",
+  "select_22",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_25",
+  "action_completed_3",
+  "section_break_27",
+  "select_28",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_31",
+  "action_completed_4",
+  "section_break_33",
+  "select_34",
+  "action_needed_5",
+  "responsible_person_5",
+  "column_break_37",
+  "action_completed_5",
+  "section_break_39",
+  "select_40",
+  "action_needed_6",
+  "responsible_person_6",
+  "column_break_43",
+  "action_completed_6",
+  "section_break_45",
+  "select_46",
+  "action_needed_7",
+  "responsible_person_7",
+  "column_break_50",
+  "action_completed_7",
+  "section_break_51",
+  "select_52",
+  "action_needed_8",
+  "responsible_person_8",
+  "column_break_55",
+  "action_comleted_8",
+  "section_break_57",
+  "select_58",
+  "action_needed_9",
+  "responsible_person_9",
+  "column_break_61",
+  "action_completed_9",
+  "section_break_63",
+  "select_64",
+  "action_needed_10",
+  "responsible_person_10",
+  "column_break_67",
+  "action_completed_10",
+  "section_break_69",
+  "select_70",
+  "action_needed_11",
+  "responsible_person_11",
+  "column_break_73",
+  "action_completed_11",
+  "section_break_75",
+  "select_76",
+  "action_needed_12",
+  "responsible_person_12",
+  "column_break_79",
+  "action_completed_12",
+  "section_break_81",
+  "select_82",
+  "action_needed_13",
+  "responsible_person_13",
+  "column_break_85",
+  "action_completed_13",
+  "section_break_87",
+  "select_88",
+  "action_needed_14",
+  "responsible_person_14",
+  "column_break_91",
+  "action_completed_14",
+  "section_break_93",
+  "select_94",
+  "action_needed_15",
+  "responsible_person_15",
+  "column_break_97",
+  "action_completed_15",
+  "section_break_99",
+  "select_100",
+  "action_needed_16",
+  "responsible_person_16",
+  "column_break_103",
+  "action_completed_16",
+  "section_break_105",
+  "select_106",
+  "action_needed_17",
+  "responsible_person_17",
+  "column_break_109",
+  "action_completed_17",
+  "section_break_111",
+  "select_112",
+  "action_needed_18",
+  "responsible_person_18",
+  "column_break_115",
+  "action_completed_18",
+  "section_break_117",
+  "select_118",
+  "action_needed_19",
+  "responsible_person_19",
+  "column_break_121",
+  "action_completed_19",
+  "section_break_123",
+  "select_124",
+  "action_needed_20",
+  "responsible_person_20",
+  "column_break_127",
+  "action_completed_20",
+  "section_break_129",
+  "select_130",
+  "action_needed_21",
+  "responsible_person_21",
+  "column_break_133",
+  "action_completed_21"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "label": "Farm",
+   "options": "Farm Profile"
+  },
+  {
+   "fieldname": "wetland_section",
+   "fieldtype": "Section Break",
+   "label": "Wetland Care Taker and Operation & maintenance manual  "
+  },
+  {
+   "fieldname": "select_8",
+   "fieldtype": "Select",
+   "label": "Farm have both versions (English & local languages) of O&M manual",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_1",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_16",
+   "fieldtype": "Select",
+   "label": "Farm have personnel who is responsible for the wetland system maintenance.",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_2",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_22",
+   "fieldtype": "Select",
+   "label": "The personnel trained well in operation & maintenance of the wetland system. ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_3",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_28",
+   "fieldtype": "Select",
+   "label": "Have an understanding how the system is work",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_4",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_34",
+   "fieldtype": "Select",
+   "label": "Know how to document changes within the system and communicating the same precisely to management. ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_5",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_5",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_5",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_39",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_40",
+   "fieldtype": "Select",
+   "label": "Have an ability to properly train an assistant to the knowledge acquired ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_6",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_6",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_6",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_45",
+   "fieldtype": "Section Break",
+   "label": "Evaluation of the Wetland System"
+  },
+  {
+   "fieldname": "select_46",
+   "fieldtype": "Select",
+   "label": "Farm is conducting the water analysis quarterly.",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_7",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_7",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_50",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_7",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_51",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_52",
+   "fieldtype": "Select",
+   "label": "Farm post the analysis result in visible place.",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_8",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_8",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_55",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_comleted_8",
+   "fieldtype": "Small Text",
+   "label": "Action Comleted"
+  },
+  {
+   "fieldname": "section_break_57",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_58",
+   "fieldtype": "Select",
+   "label": "Farm is recording the amount of water that treats annually",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_9",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_9",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_61",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_9",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_63",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_64",
+   "fieldtype": "Select",
+   "label": "Farm is recording the volume of water recycle, reuse and/or save because of wetland.",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_10",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_10",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_67",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_10",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_69",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_70",
+   "fieldtype": "Select",
+   "label": "Farm is measured/estimate the amount of money that can save due to wetland.",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_11",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_11",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_73",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_11",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_75",
+   "fieldtype": "Section Break",
+   "label": "Soak away pit"
+  },
+  {
+   "fieldname": "select_76",
+   "fieldtype": "Select",
+   "label": "Liquid Waste is handled in an appropriate way (soak away pit) to avoid health risk and unnecessary environmental impact",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_12",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_12",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_79",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_12",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_81",
+   "fieldtype": "Section Break",
+   "label": "Green Waste Management "
+  },
+  {
+   "fieldname": "select_82",
+   "fieldtype": "Select",
+   "label": "The existence of compost preparation",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_13",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_13",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_85",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_13",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_87",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_88",
+   "fieldtype": "Select",
+   "label": "Compost preparation area is separate from most employee working areas, drinking water",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_14",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_14",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_91",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_14",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_93",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_94",
+   "fieldtype": "Select",
+   "label": "There is assigned responsible trained manpower for the handling of compost preparation",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_15",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_15",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_97",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_15",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_99",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "the risk for pests and diseases spreading back into the crop ",
+   "fieldname": "select_100",
+   "fieldtype": "Select",
+   "label": "The management, transport and disposal of organic crop waste must be done in such a way as ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_16",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_16",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_103",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_16",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_105",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_106",
+   "fieldtype": "Select",
+   "label": "Organic crop waste is not fed directly to livestock and is not left where livestock have informal access to the waste ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_17",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_17",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_109",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_17",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_111",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "or is converted into other products, fuel briquettes, furniture, etc. \nRoutine burning and indiscriminate dumping around the site is not permitted\n",
+   "fieldname": "select_112",
+   "fieldtype": "Select",
+   "label": "Where possible healthy organic crop waste is composted and used for soil amelioration ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_18",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_18",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_115",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_18",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_117",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "and diseases in burnt promptly and care is taken that the smoke does not cause nuisance to employees and the local community",
+   "fieldname": "select_118",
+   "fieldtype": "Select",
+   "label": "Organic waste that is heavily infested with pests ",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_19",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_19",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_121",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_19",
+   "fieldtype": "Small Text",
+   "label": "Action Completed "
+  },
+  {
+   "fieldname": "section_break_123",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_124",
+   "fieldtype": "Select",
+   "label": "Farm is recording the volume of green waste generated daily/weekly/annually.",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_20",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_20",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_127",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_20",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  },
+  {
+   "fieldname": "section_break_129",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_130",
+   "fieldtype": "Select",
+   "label": "Farm is recording the amount of money that can saved due to application of composting and/or energy producing energy.",
+   "options": "\nPresent\nAbsent"
+  },
+  {
+   "fieldname": "action_needed_21",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_21",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_133",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_completed_21",
+   "fieldtype": "Small Text",
+   "label": "Action Completed"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 11:03:48.781324",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Liquid Waste Management Part2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

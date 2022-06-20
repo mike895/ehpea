@@ -1,0 +1,200 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Implementation of pest management part 3-{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-04-12 16:39:01.111086",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm",
+  "section_break_11",
+  "select_20",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_23",
+  "remark_1",
+  "section_break_25",
+  "select_21",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_27",
+  "remark_2",
+  "section_break_29",
+  "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_33",
+  "remark_3",
+  "section_break_35",
+  "select_36",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_39",
+  "remark_4",
+  "section_break_187",
+  "next"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "label": "Farm ",
+   "options": "Farm Profile"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break",
+   "label": "Pesticides Application Records"
+  },
+  {
+   "description": "Crop and/or variety,\nLocation and area sprayed (farm, Production unit and area m2 or ha treated),\nDate (D/M/Y),\nName of pesticide used (note: Data must be available to link Pesticide product name to its active ingredient), \nRe-entry time\n",
+   "fieldname": "select_20",
+   "fieldtype": "Select",
+   "label": "Each Pesticide application is recorded;",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Authorization for application (authorized Spray instructions),\nOperators names,\nReason for application (Name of Pest or disease as given on the product label),\nAmount of pesticide and volume of spray used, \nMethod of application and equipment used\n",
+   "fieldname": "select_21",
+   "fieldtype": "Select",
+   "label": "Each Pesticide application record also includes:",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "and are adequately supervised to ensure that the PPE is used correctly during the spraying process",
+   "fieldname": "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+   "fieldtype": "Select",
+   "label": "All persons involved in the pesticide application process are supplied with adequate PPE ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_36",
+   "fieldtype": "Select",
+   "label": "Spray supervisors receive training in safe working practices, effective spraying and supervisory techniques and are present when spraying is",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_187",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "next",
+   "fieldtype": "Button",
+   "label": "Next"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 11:04:40.608012",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Implementation of pest management part 3",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

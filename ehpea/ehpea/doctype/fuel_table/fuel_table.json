@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-12 13:10:41.701205",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sn",
+  "date",
+  "unit_of_measurelt",
+  "amount_used_for_generators",
+  "amount_used_for_vehicles",
+  "total_amount",
+  "responsible_person",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "sn",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "SN"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "unit_of_measurelt",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Unit of measure/Lt"
+  },
+  {
+   "fieldname": "amount_used_for_generators",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Amount used for Generators"
+  },
+  {
+   "fieldname": "amount_used_for_vehicles",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Amount used for Vehicles"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-20 11:00:46.752339",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "fuel table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

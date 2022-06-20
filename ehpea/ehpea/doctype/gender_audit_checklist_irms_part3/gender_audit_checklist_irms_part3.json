@@ -1,0 +1,302 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Gender Audit Checklist IRMS part3-{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-04-11 12:23:47.958333",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm",
+  "section_break_1",
+  "select_2",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_5",
+  "remark_1",
+  "section_break_7",
+  "select_8",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_11",
+  "remark_2",
+  "section_break_13",
+  "select_14",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_17",
+  "remark_3",
+  "section_break_19",
+  "select_20",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_23",
+  "remark_4",
+  "section_break_25",
+  "select_26",
+  "action_needed_5",
+  "responsible_person_5",
+  "column_break_29",
+  "remark_5",
+  "section_break_31",
+  "select_32",
+  "action_needed_7",
+  "responsible_person_7",
+  "column_break_35",
+  "remark_7",
+  "section_break_37",
+  "select_38",
+  "action_needed",
+  "responsible_person",
+  "column_break_41",
+  "remark",
+  "section_break_43",
+  "conducted_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "label": "Farm",
+   "options": "Farm Profile"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Prevalence of SRH problems"
+  },
+  {
+   "fieldname": "select_2",
+   "fieldtype": "Select",
+   "label": "Number of married female workers",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_8",
+   "fieldtype": "Select",
+   "label": "Number of female workers using contraceptiveof female workers using contraceptive",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_14",
+   "fieldtype": "Select",
+   "label": "What kind of SRH problem is currently prevalent in the farm (assessment record)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_20",
+   "fieldtype": "Select",
+   "label": "Did the problem decline or inclined? (Summarized see clinic data)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_26",
+   "fieldtype": "Select",
+   "label": "There  is pre-identified working sections to assign pregnant women\u2019s (Identified section list)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_5",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_5",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_5",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_32",
+   "fieldtype": "Select",
+   "label": "Farms  allocate two hours in a day for breast feeding women at least for six months(Policy for Nursing women\u2019s)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_7",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_7",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_7",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_38",
+   "fieldtype": "Select",
+   "label": "Farm availed sanitary pad for emergency case management",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "conducted_by",
+   "fieldtype": "Link",
+   "label": "Conducted By",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 10:59:32.785989",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Gender Audit Checklist IRMS part3",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

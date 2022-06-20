@@ -1,0 +1,1164 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Implementation of pest management part2-{YY}-{MM}-{DD}-{farm}",
+ "creation": "2022-04-12 15:56:28.325437",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm",
+  "section_break_11",
+  "select_20",
+  "action_needed_1",
+  "responsible_person_1",
+  "column_break_23",
+  "remark_1",
+  "section_break_25",
+  "select_21",
+  "action_needed_2",
+  "responsible_person_2",
+  "column_break_27",
+  "remark_2",
+  "section_break_29",
+  "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+  "action_needed_3",
+  "responsible_person_3",
+  "column_break_33",
+  "remark_3",
+  "section_break_35",
+  "select_36",
+  "action_needed_4",
+  "responsible_person_4",
+  "column_break_39",
+  "remark_4",
+  "section_break_41",
+  "select_42",
+  "action_needed_5",
+  "responsible_person_5",
+  "column_break_45",
+  "remark_5",
+  "section_break_47",
+  "select_48",
+  "action_needed_6",
+  "responsible_person_6",
+  "column_break_51",
+  "remark_6",
+  "section_break_53",
+  "select_54",
+  "action_needed_7",
+  "responsible_person_7",
+  "column_break_57",
+  "remark_7",
+  "section_break_59",
+  "select_60",
+  "action_needed_8",
+  "responsible_person_8",
+  "column_break_63",
+  "remark_8",
+  "gender_equality_policy_section",
+  "select_66",
+  "action_needed_9",
+  "responsible_person_9",
+  "column_break_69",
+  "remark_9",
+  "section_break_71",
+  "organization",
+  "action_needed_10",
+  "responsible_person_10",
+  "column_break_75",
+  "remark_10",
+  "section_break_77",
+  "select_78",
+  "action_needed_11",
+  "responsible_person_11",
+  "column_break_81",
+  "remark_11",
+  "section_break_83",
+  "select_84",
+  "action_needed_12",
+  "responsible_person_12",
+  "column_break_87",
+  "remark_12",
+  "section_break_89",
+  "select_90",
+  "action_needed_13",
+  "responsible_person_13",
+  "column_break_93",
+  "remark_13",
+  "section_break_95",
+  "select_96",
+  "action_needed_14",
+  "responsible_person_14",
+  "column_break_99",
+  "remark_14",
+  "section_break_101",
+  "select_102",
+  "action_needed_15",
+  "responsible_person_15",
+  "column_break_105",
+  "remark_15",
+  "section_break_107",
+  "select_108",
+  "action_needed_16",
+  "responsible_person_16",
+  "column_break_111",
+  "remark_16",
+  "section_break_113",
+  "select_114",
+  "action_needed_17",
+  "responsible_person_17",
+  "column_break_117",
+  "remark_17",
+  "section_break_119",
+  "select_120",
+  "action_needed_18",
+  "responsible_person_18",
+  "column_break_123",
+  "remark_18",
+  "section_break_125",
+  "select_126",
+  "action_needed_19",
+  "responsible_person_19",
+  "column_break_129",
+  "remark_19",
+  "section_break_131",
+  "select_132",
+  "action_needed_20",
+  "responsible_20",
+  "column_break_135",
+  "remark_20",
+  "section_break_137",
+  "select_138",
+  "action_needed_21",
+  "responsible_person_21",
+  "column_break_141",
+  "remark_21",
+  "section_break_143",
+  "select_144",
+  "action_needed_22",
+  "responsible_person_22",
+  "column_break_147",
+  "remark_22",
+  "section_break_149",
+  "prevention_of_sexual_harassment",
+  "action_needed_23",
+  "responsible_person_23",
+  "column_break_153",
+  "remark_23",
+  "section_break_155",
+  "select_156",
+  "action_needed_24",
+  "responsible_person_24",
+  "column_break_159",
+  "remark_24",
+  "section_break_161",
+  "select_162",
+  "action_needed_25",
+  "responsible_person_25",
+  "column_break_165",
+  "remark_25",
+  "section_break_167",
+  "select_168",
+  "action_needed_26",
+  "responsible_person_26",
+  "column_break_171",
+  "remark_26",
+  "section_break_173",
+  "select_174",
+  "action_needed_27",
+  "responsible_person_27",
+  "column_break_177",
+  "remark_27",
+  "section_break_179",
+  "select_180",
+  "action_needed_28",
+  "responsible_person_28",
+  "column_break_183",
+  "remark_28",
+  "section_break_169",
+  "select_170",
+  "action_needed_29",
+  "responsible_person_29",
+  "column_break_173",
+  "remark_29",
+  "section_break_175",
+  "select_176",
+  "action_needed_30",
+  "responsible_person_30",
+  "column_break_179",
+  "remark_30",
+  "section_break_183",
+  "select_184",
+  "action_needed_31",
+  "responsible_person_31",
+  "column_break_187",
+  "remark_31",
+  "section_break_187",
+  "next"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "label": "Farm",
+   "options": "Farm Profile"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Constructions made with absorbent material must be protected by the use of plastic covering or leak proof trays",
+   "fieldname": "select_20",
+   "fieldtype": "Select",
+   "label": "The shelves on which pesticides are stored must be made of non-absorbent material",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_1",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_1",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_21",
+   "fieldtype": "Select",
+   "label": "A container of absorbent inert material, sand, a designated floor sweeping brush, dustpan and plastic bags are provided to handle spillage",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_2",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_2",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "who have received formal training and can demonstrate competence in the safe handling and storage of crop protection products",
+   "fieldname": "the_policy_treats_any_gbv_as_gross_misconduct_opinion",
+   "fieldtype": "Select",
+   "label": "Physical access is only granted in the presence of authorized personnel ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_3",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_3",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "and equipment used for spraying may be stored in the pesticide store\nThe storage area is not to be used for PPE and stock records, vase life chemicals, disinfectants and cleaning products, fuel, or any other items that could become contaminated or would be accessed by personnel not wearing PPE or not trained to work with pesticides\n",
+   "fieldname": "select_36",
+   "fieldtype": "Select",
+   "label": "Only pesticides, spray additives, fertilizer to be applied as part of the pesticide application,  rinsed empty containers awaiting disposal ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_4",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_4",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "-\tWhere transfer to cleaned pesticide container that has contained the same pesticide, has been necessary due to leakage\n-\tWhen application after issue has been delayed\nFarms should document procedures to be used in the event of delayed issue and damage to containers     \n",
+   "fieldname": "select_42",
+   "fieldtype": "Select",
+   "label": "All the crop protection products in the store are kept in the original containers and packs except in the circumstances below:",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_5",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_5",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_5",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_47",
+   "fieldtype": "Section Break",
+   "label": "Use of Biological Agents and Botanical Plant extracts for Pest and Disease control and/ or Growth Stimulation"
+  },
+  {
+   "description": "included in the Audit are stored separately within the plant protection product store from those used for other purposes and are clearly labelled",
+   "fieldname": "select_48",
+   "fieldtype": "Select",
+   "label": "Plant protection products that are for use on the crops grown in the crop rotation ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_6",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_6",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_6",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_53",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_54",
+   "fieldtype": "Select",
+   "label": "Obsolete and expired products in the pesticide store must be clearly labelled \u2019Obsolete or Expired\u2019 and kept separately from the stock",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_7",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_7",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_57",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_7",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_59",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_60",
+   "fieldtype": "Select",
+   "label": "stock rotation FIFO or use of \u2018oldest first\u2019 are implemented to ensure that more obsolete or expired products are not accumulated",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_8",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_8",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_63",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_8",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "gender_equality_policy_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "or Obsolete stock is done by acceptable means in accordance with recommendations from MoA APHRD\nDisposal must be recorded\n",
+   "fieldname": "select_66",
+   "fieldtype": "Select",
+   "label": "The Farm must show evidence of actively seeking advice about safe disposal of obsolete or expired products in stock and disposal of Expired ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_9",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_9",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_69",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_9",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "description": "plant origin or trade name, site treated, area, date of application and rate of application, name of person authorizing the application  ",
+   "fieldname": "section_break_71",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "which is always above those products that are liquid formulations in case of accidental leakage",
+   "fieldname": "organization",
+   "fieldtype": "Select",
+   "label": "All the crop protection products that are in a powder or granular formulation are stored on shelving ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_10",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_10",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_75",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_10",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_77",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Stock records are kept up to date and are stored near to but not in the stores",
+   "fieldname": "select_78",
+   "fieldtype": "Select",
+   "label": "All issue and receipt of pesticide products is recorded in the Stock records ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_11",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_11",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_81",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_11",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_83",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Reasons for discrepancy between the calculated balance and physical balance are investigated and the inventory report is submitted to the Production Manager",
+   "fieldname": "select_84",
+   "fieldtype": "Select",
+   "label": "There is a monthly inventory of all the crop protection products in store, Stock card balance, physical balance condition and expiry date.  ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_12",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_12",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_87",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_12",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_89",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "which are visible at all times",
+   "fieldname": "select_90",
+   "fieldtype": "Select",
+   "label": "There are permanent and clear hazard warning signs on or next to the access doors of the crop protection products storage facilities ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_13",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_13",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_93",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_13",
+   "fieldtype": "Data",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_95",
+   "fieldtype": "Section Break",
+   "label": "Measuring and Mixing of Pesticides  "
+  },
+  {
+   "fieldname": "select_96",
+   "fieldtype": "Select",
+   "label": "Pesticides are only issued for use to authorized personnel in response to written instructions from authorized personnel",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_14",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_14",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_99",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_14",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_101",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "The Farm is able to show that pesticide products imported for \u2018own use\u2019 are registered for similar use in other countries and are imported and permitted for use in Ethiopia ",
+   "fieldname": "select_102",
+   "fieldtype": "Select",
+   "label": "All staff involved in measuring and mixing of pesticide products are supplied with protective clothing as specified on the product label",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_15",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_15",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_105",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_15",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_107",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "when use of these products can be justified or\nWHO Class 1 pesticide products and products that are highly hazardous to the Environment or Pesticide products on the MPS Black List are not used on the Farm\n",
+   "fieldname": "select_108",
+   "fieldtype": "Select",
+   "label": "Measuring jugs and weighing scales of appropriate type and size are provided and Weighing scales are calibrated/accuracy verified annually",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_16",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_16",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_111",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_16",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_113",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "or in the manufacturer\u2019s literature provided with the product at the point of sale",
+   "fieldname": "select_114",
+   "fieldtype": "Select",
+   "label": "Equipment for cleaning up spillage is provided",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_17",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_17",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_117",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_17",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_119",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_120",
+   "fieldtype": "Select",
+   "label": "Measuring and mixing areas are well ventilated and maintained in a clean condition",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_18",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_18",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_123",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_18",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_125",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "and the basic steps of primary accident care, are permanently and clearly displayed in/by the stores",
+   "fieldname": "select_126",
+   "fieldtype": "Select",
+   "label": "Accident and emergency procedures, including emergency contact telephone numbers",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_19",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_19",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_129",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_19",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_131",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "unless the product being trialed is already registered for a similar use in other countries",
+   "fieldname": "select_132",
+   "fieldtype": "Select",
+   "label": "An eye wash capability is available mounted on the wall in front of the measuring area when measuring is carried out in the mixing area",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_20",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_20",
+   "fieldtype": "Data",
+   "label": "Responsible"
+  },
+  {
+   "fieldname": "column_break_135",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_20",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_137",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_138",
+   "fieldtype": "Select",
+   "label": "Clean water is available, (within 10 m), for use in the event of personal contamination",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_21",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_21",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_141",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_21",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_143",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Handling and mixing procedures are correct and in accordance with advice given on the product label\n",
+   "fieldname": "select_144",
+   "fieldtype": "Select",
+   "label": "Staff involved in measuring and mixing receive training in safe and correct working practices a",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_22",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_22",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_147",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_22",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_149",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "or room or in a locked metal cupboard which is only used for this purpose and is sited in the mixing area",
+   "fieldname": "prevention_of_sexual_harassment",
+   "fieldtype": "Select",
+   "label": "Where pesticides are issued in the afternoon for application early the following morning, storage overnight must be in a locked mixing area ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_23",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_23",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_153",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_23",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_155",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_156",
+   "fieldtype": "Select",
+   "label": "Pesticides are only moved around the farm in the original containers or in clean labelled containers that have previously contained the same",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_24",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_24",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_159",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_24",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_161",
+   "fieldtype": "Section Break",
+   "label": "Pesticides Spraying equipment and spraying practices"
+  },
+  {
+   "fieldname": "select_162",
+   "fieldtype": "Select",
+   "label": "There is a procedure in place that describes the method and frequency of calibration of application equipment ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_25",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_25",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_165",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_25",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_167",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_168",
+   "fieldtype": "Select",
+   "label": "Where an official system or service for equipment calibration exists, this service has been used to verify the \u2018on farm calibration ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_26",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_26",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_171",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_26",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_173",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_174",
+   "fieldtype": "Select",
+   "label": "All pesticide spray mix calculations are filed for reference",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_27",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_27",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_177",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_27",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_179",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "and the door is be bunded to contain spillage or liquid products are placed in trays to contain leakage",
+   "fieldname": "select_180",
+   "fieldtype": "Select",
+   "label": "Nozzle output is checked monthly and the nozzles replaced as necessary",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_28",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_28",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_183",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_28",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_169",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "This application is recorded\nWhere this is not possible the surplus spray mix is sprayed out on to a designated area of fallow land and the disposal recorded\n",
+   "fieldname": "select_170",
+   "fieldtype": "Select",
+   "label": "Left over spray mix is used constructively on a crop area selected by the manager. ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_29",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_29",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_173",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_29",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_175",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_176",
+   "fieldtype": "Select",
+   "label": "Equipment maintenance has been carried out in accordance with the manufacturers recommendations and the maintenance is recorded",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_30",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_30",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_179",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_30",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_183",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_184",
+   "fieldtype": "Select",
+   "label": "Spraying equipment is cleaned after each use",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "action_needed_31",
+   "fieldtype": "Data",
+   "label": "Action Needed"
+  },
+  {
+   "fieldname": "responsible_person_31",
+   "fieldtype": "Data",
+   "label": "Responsible Person"
+  },
+  {
+   "fieldname": "column_break_187",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_31",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_187",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "next",
+   "fieldtype": "Button",
+   "label": "Next"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 10:58:33.716840",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Implementation of pest management part 2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

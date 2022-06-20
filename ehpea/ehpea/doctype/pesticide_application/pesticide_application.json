@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{product_name}",
+ "creation": "2022-03-03 15:26:36.703146",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sn",
+  "date",
+  "product_name",
+  "ai",
+  "responsible_person",
+  "expiry_date",
+  "green_house_no_and__ha",
+  "unit_of_measurement",
+  "amount",
+  "column_break_7",
+  "target_pest",
+  "operators_name",
+  "time_of_application",
+  "equipment_used",
+  "method_of_application",
+  "environmental_condition",
+  "ppe_used",
+  "re_entry_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "sn",
+   "fieldtype": "Int",
+   "label": "Sn"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Link",
+   "label": "Product Name",
+   "options": "Product"
+  },
+  {
+   "fieldname": "ai",
+   "fieldtype": "Data",
+   "label": "Ai"
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Link",
+   "label": "Responsible person",
+   "options": "User"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "green_house_no_and__ha",
+   "fieldtype": "Data",
+   "label": "Green House No. and Ha"
+  },
+  {
+   "fieldname": "unit_of_measurement",
+   "fieldtype": "Data",
+   "label": "Unit of Measurement"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "target_pest",
+   "fieldtype": "Data",
+   "label": "Target Pest"
+  },
+  {
+   "fieldname": "operators_name",
+   "fieldtype": "Data",
+   "label": "Operators Name"
+  },
+  {
+   "fieldname": "time_of_application",
+   "fieldtype": "Datetime",
+   "label": "Time of application"
+  },
+  {
+   "fieldname": "equipment_used",
+   "fieldtype": "Data",
+   "label": "Equipment used"
+  },
+  {
+   "fieldname": "method_of_application",
+   "fieldtype": "Data",
+   "label": "method of application"
+  },
+  {
+   "fieldname": "environmental_condition",
+   "fieldtype": "Data",
+   "label": "Environmental Condition"
+  },
+  {
+   "fieldname": "ppe_used",
+   "fieldtype": "Data",
+   "label": "PPE used"
+  },
+  {
+   "fieldname": "re_entry_time",
+   "fieldtype": "Datetime",
+   "label": "Re entry time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 10:57:44.931077",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Pesticide Application",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

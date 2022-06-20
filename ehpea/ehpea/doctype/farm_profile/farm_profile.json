@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{farm_namecompany}",
+ "creation": "2022-03-05 11:35:35.126056",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm_namecompany",
+  "address",
+  "contact",
+  "column_break_4",
+  "production_area",
+  "product_type",
+  "number_of_employeesmale_and_female"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm_namecompany",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Farm Name(company)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Data",
+   "label": "Contact"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "production_area",
+   "fieldtype": "Data",
+   "label": "Production Area"
+  },
+  {
+   "fieldname": "product_type",
+   "fieldtype": "Data",
+   "label": "Product type"
+  },
+  {
+   "fieldname": "number_of_employeesmale_and_female",
+   "fieldtype": "Data",
+   "label": "Number of employees(Male and Female)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 10:56:40.171509",
+ "modified_by": "Administrator",
+ "module": "ehpea",
+ "name": "Farm Profile",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
