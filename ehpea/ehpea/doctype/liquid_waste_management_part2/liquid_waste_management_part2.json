@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Liquid Waste Management Part2-{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:LWM II-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-04-14 15:24:56.662698",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -138,9 +138,10 @@
  "fields": [
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Farm",
-   "options": "Farm Profile"
+   "options": "Selected Farm",
+   "reqd": 1
   },
   {
    "fieldname": "wetland_section",
@@ -761,7 +762,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:03:48.781324",
+ "modified": "2022-06-22 20:26:26.393239",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Liquid Waste Management Part2",
@@ -780,7 +781,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

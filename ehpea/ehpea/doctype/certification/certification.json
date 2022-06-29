@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Certification-{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:Certification-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-05 11:37:47.436368",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -20,9 +20,10 @@
  "fields": [
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "farm",
-   "options": "Farm Profile"
+   "options": "Selected Farm",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_2",
@@ -66,7 +67,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 10:59:13.075216",
+ "modified": "2022-06-22 20:19:45.533874",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Certification",
@@ -85,7 +86,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Green waste Management checklist-{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:GWMC-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-03 15:39:17.993702",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -18,9 +18,10 @@
  "fields": [
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Farm",
-   "options": "Farm Profile",
+   "options": "Selected Farm",
+   "reqd": 1,
    "set_only_once": 1
   },
   {
@@ -58,7 +59,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:08:23.671340",
+ "modified": "2022-06-22 20:22:54.669139",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Green waste Management checklist",
@@ -77,7 +78,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

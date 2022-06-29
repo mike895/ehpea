@@ -2,7 +2,18 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('List of Species', {
-	// refresh: function(frm) {
+	 refresh: function(frm) {
 
-	// }
+	 frm.set_query( 'farm', () => {
+   
+        return {
+        query: 'ehpea.ehpea.whitelist.farmfilter',
+        filters: {
+            email: frappe.session.user,
+           }
+       }
+
+	})
+
+	 }
 });

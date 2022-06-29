@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Implementation of pest management-{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:IPM-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-04-12 14:02:20.398983",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -194,15 +194,16 @@
   "responsible_person_31",
   "column_break_187",
   "remark_31",
-  "section_break_187",
-  "next"
+  "section_break_190",
+  "next_part"
  ],
  "fields": [
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Farm",
-   "options": "Farm Profile"
+   "options": "Selected Farm",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_11",
@@ -1120,18 +1121,19 @@
    "label": "Remark"
   },
   {
-   "fieldname": "section_break_187",
+   "fieldname": "section_break_190",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "next",
-   "fieldtype": "Button",
-   "label": "Next"
+   "fieldname": "next_part",
+   "fieldtype": "Link",
+   "label": "Next Part",
+   "options": "Implementation of pest management part 2"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:04:53.089378",
+ "modified": "2022-06-29 11:09:33.365377",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Implementation of pest management",
@@ -1150,7 +1152,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

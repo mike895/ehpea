@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{item}",
+ "autoname": "format:Fertilizer-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-03 15:03:02.728746",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "farm",
+  "section_break_8",
   "item",
   "sub_item",
   "value",
@@ -52,11 +54,22 @@
    "fieldtype": "Link",
    "label": "Responsible Person",
    "options": "User"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "farm",
+   "fieldtype": "Table MultiSelect",
+   "label": "Farm",
+   "options": "Selected Farm",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:06:51.007081",
+ "modified": "2022-06-22 20:20:36.733849",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Fertilizer",
@@ -75,7 +88,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

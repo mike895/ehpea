@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Meeting Minutes-{YY}-{MM}-{DD}-{tittle}",
+ "autoname": "format:MM-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-05 11:54:54.802232",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -53,9 +53,10 @@
   },
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Farm",
-   "options": "Farm Profile"
+   "options": "Selected Farm",
+   "reqd": 1
   },
   {
    "fieldname": "discussion",
@@ -79,7 +80,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:08:14.674461",
+ "modified": "2022-06-22 20:26:55.429967",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Meeting Minutes",
@@ -98,7 +99,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

@@ -1,13 +1,13 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Liquid Waste Management-{YY}-{MM}-{DD}-{farm_name}",
+ "autoname": "format:LWM-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-03 15:43:46.989864",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "farm_name",
+  "farm",
   "person_responsible",
   "column_break_3",
   "site",
@@ -176,18 +176,11 @@
   "action_neede_27",
   "responsible_person_27",
   "column_break_169",
-  "action_completed_27"
+  "action_completed_27",
+  "section_break_171",
+  "next_part"
  ],
  "fields": [
-  {
-   "fieldname": "farm_name",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Farm Name",
-   "options": "Farm Profile",
-   "reqd": 1,
-   "set_only_once": 1
-  },
   {
    "fieldname": "person_responsible",
    "fieldtype": "Data",
@@ -1011,11 +1004,29 @@
    "fieldname": "action_completed_27",
    "fieldtype": "Small Text",
    "label": "Action Completed"
+  },
+  {
+   "fieldname": "farm",
+   "fieldtype": "Table MultiSelect",
+   "label": "Farm Name",
+   "options": "Selected Farm",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "section_break_171",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "next_part",
+   "fieldtype": "Link",
+   "label": "Next Part",
+   "options": "Liquid Waste Management Part2"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:07:10.387945",
+ "modified": "2022-06-22 20:26:12.293134",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Liquid Waste Management",
@@ -1034,7 +1045,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

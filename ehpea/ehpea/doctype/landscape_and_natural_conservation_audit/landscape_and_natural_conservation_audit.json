@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Landscape and natural conservation audit-{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:LNCA-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-05 11:22:06.963518",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -74,9 +74,10 @@
  "fields": [
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Farm",
-   "options": "Farm Profile"
+   "options": "Selected Farm",
+   "reqd": 1
   },
   {
    "description": "The objective of the audit is to understand the wildlife habitat, biodiversity, archeological or historic sites in the farm compound and define the policy and action plan.\n\nConservation action plan aims to enhance the farm to encourage greater biodiversity and is linked to any biodiversity action plans that exist in the local area or country. \n",
@@ -394,7 +395,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:04:20.087536",
+ "modified": "2022-06-22 20:25:59.089438",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Landscape and natural conservation audit",
@@ -413,7 +414,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

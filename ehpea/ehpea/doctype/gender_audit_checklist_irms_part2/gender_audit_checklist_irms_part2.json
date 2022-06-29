@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Gender Audit Checklist IRMS part2-{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:GACI II-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-04-11 11:49:08.148455",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -188,15 +188,16 @@
   "responsible_person_30",
   "column_break_179",
   "remark_30",
-  "section_break_187",
-  "next"
+  "section_break_184",
+  "next_part"
  ],
  "fields": [
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
+   "fieldtype": "Table MultiSelect",
    "label": "Farm",
-   "options": "Farm Profile"
+   "options": "Selected Farm",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_11",
@@ -1072,18 +1073,19 @@
    "label": "Remark"
   },
   {
-   "fieldname": "section_break_187",
+   "fieldname": "section_break_184",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "next",
-   "fieldtype": "Button",
-   "label": "Next"
+   "fieldname": "next_part",
+   "fieldtype": "Link",
+   "label": "Next Part",
+   "options": "Gender Audit Checklist IRMS part3"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:00:24.336559",
+ "modified": "2022-06-29 11:06:53.972242",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Gender Audit Checklist IRMS part2",
@@ -1102,7 +1104,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

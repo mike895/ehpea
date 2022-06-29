@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Workers Walfare OSH-{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:WWO-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-04-11 14:14:02.581684",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -182,16 +182,17 @@
   "action_needed_28",
   "responsible_person_28",
   "column_break_183",
-  "remark_28"
+  "remark_28",
+  "section_break_177",
+  "next_part"
  ],
  "fields": [
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
-   "in_list_view": 1,
+   "fieldtype": "Table MultiSelect",
    "in_preview": 1,
    "label": "Farm Name",
-   "options": "Farm Profile",
+   "options": "Selected Farm",
    "reqd": 1,
    "set_only_once": 1
   },
@@ -1044,11 +1045,21 @@
    "fieldname": "remark_28",
    "fieldtype": "Small Text",
    "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_177",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "next_part",
+   "fieldtype": "Link",
+   "label": "Next Part",
+   "options": "Workers Walfare OSH part 2"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 10:59:50.003231",
+ "modified": "2022-06-22 20:28:07.065548",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Workers Walfare OSH",
@@ -1067,7 +1078,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

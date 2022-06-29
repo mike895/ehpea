@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Gender Grievance Handling{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:GGH-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-05 10:46:41.073003",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -100,10 +100,9 @@
   },
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
-   "in_list_view": 1,
+   "fieldtype": "Table MultiSelect",
    "label": "Farm",
-   "options": "Farm Profile",
+   "options": "Selected Farm",
    "reqd": 1,
    "set_only_once": 1
   },
@@ -509,7 +508,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:08:05.188148",
+ "modified": "2022-06-22 20:22:16.977829",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Gender Grievance Handling",
@@ -528,7 +527,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

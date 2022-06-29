@@ -131,11 +131,11 @@ app_license = "MIT"
 
 # Overriding Methods
 # ------------------------------
-#
+
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "ehpea.event.get_events"
 # }
-#
+
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
@@ -171,6 +171,15 @@ user_data_fields = [
 		"doctype": "{doctype_4}"
 	}
 ]
+
+override_whitelisted_methods = {
+       "frappe.desk.reportview.get": "ehpea.utils.permission.proxy.proxy_get",
+       "frappe.desk.reportview.get_count": "ehpea.utils.permission.proxy.proxy_count",
+       "frappe.desk.form.load.getdoc": "ehpea.utils.permission.proxy.proxy_doc",
+       "frappe.desk.form.save.savedocs": "ehpea.utils.permission.proxy.proxy_save"
+}
+
+
 
 # Authentication and authorization
 # --------------------------------

@@ -1,13 +1,13 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Genders Grievance Management-{YY}-{MM}-{DD}-{company_name}",
+ "autoname": "format:GGM-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-03 15:01:01.732096",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "company_name",
+  "farm",
   "victim_name",
   "sexual_harassment_type",
   "perpetrator",
@@ -19,15 +19,6 @@
   "correction_measure_approvedd_by"
  ],
  "fields": [
-  {
-   "fieldname": "company_name",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Farm Name",
-   "options": "Farm Profile",
-   "reqd": 1,
-   "set_only_once": 1
-  },
   {
    "fieldname": "victim_name",
    "fieldtype": "Data",
@@ -75,11 +66,19 @@
    "fieldtype": "Link",
    "label": "Correction Measure Approvedd by ",
    "options": "User"
+  },
+  {
+   "fieldname": "farm",
+   "fieldtype": "Table MultiSelect",
+   "label": "Farm Name",
+   "options": "Selected Farm",
+   "reqd": 1,
+   "set_only_once": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:07:24.089077",
+ "modified": "2022-06-22 20:22:43.031463",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Genders Grievance Management",
@@ -98,7 +97,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

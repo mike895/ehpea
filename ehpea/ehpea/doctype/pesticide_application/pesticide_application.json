@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{product_name}",
+ "autoname": "format:PA-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-03-03 15:26:36.703146",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -16,7 +16,7 @@
   "green_house_no_and__ha",
   "unit_of_measurement",
   "amount",
-  "column_break_7",
+  "farm",
   "target_pest",
   "operators_name",
   "time_of_application",
@@ -75,10 +75,6 @@
    "label": "Amount"
   },
   {
-   "fieldname": "column_break_7",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "target_pest",
    "fieldtype": "Data",
    "label": "Target Pest"
@@ -117,11 +113,18 @@
    "fieldname": "re_entry_time",
    "fieldtype": "Datetime",
    "label": "Re entry time"
+  },
+  {
+   "fieldname": "farm",
+   "fieldtype": "Table MultiSelect",
+   "label": "Farm",
+   "options": "Selected Farm",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 10:57:44.931077",
+ "modified": "2022-06-22 20:27:10.302198",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Pesticide Application",
@@ -140,7 +143,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

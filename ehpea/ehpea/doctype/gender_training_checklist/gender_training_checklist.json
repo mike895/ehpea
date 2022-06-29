@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Gender Training checklist-{YY}-{MM}-{DD}-{farm}",
+ "autoname": "format:GTC-{#######}-{YY}-{MM}-{DD}",
  "creation": "2022-06-15 15:46:05.689611",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -108,10 +108,9 @@
   },
   {
    "fieldname": "farm",
-   "fieldtype": "Link",
-   "in_list_view": 1,
+   "fieldtype": "Table MultiSelect",
    "label": "Farm Name",
-   "options": "Farm Profile",
+   "options": "Selected Farm",
    "reqd": 1,
    "set_only_once": 1
   },
@@ -557,7 +556,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 11:07:39.877198",
+ "modified": "2022-06-22 20:22:31.631048",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Gender Training checklist",
@@ -576,7 +575,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

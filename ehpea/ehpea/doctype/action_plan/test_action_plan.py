@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestActionPlanTemplate(unittest.TestCase):
+class TestActionPlan(unittest.TestCase):
 	pass

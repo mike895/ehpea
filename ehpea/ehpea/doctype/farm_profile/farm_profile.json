@@ -1,13 +1,13 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{farm_namecompany}",
+ "autoname": "format:{farm}",
  "creation": "2022-03-05 11:35:35.126056",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "farm_namecompany",
+  "farm",
   "address",
   "contact",
   "column_break_4",
@@ -16,13 +16,6 @@
   "number_of_employeesmale_and_female"
  ],
  "fields": [
-  {
-   "fieldname": "farm_namecompany",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Farm Name(company)",
-   "reqd": 1
-  },
   {
    "fieldname": "address",
    "fieldtype": "Data",
@@ -51,11 +44,19 @@
    "fieldname": "number_of_employeesmale_and_female",
    "fieldtype": "Data",
    "label": "Number of employees(Male and Female)"
+  },
+  {
+   "fieldname": "farm",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Farm Name(company)",
+   "reqd": 1,
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 10:56:40.171509",
+ "modified": "2022-06-22 20:20:26.481995",
  "modified_by": "Administrator",
  "module": "ehpea",
  "name": "Farm Profile",
@@ -74,7 +75,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
